@@ -1,13 +1,30 @@
 city_info = { 
-  "lilburn" => "30047",
-  "norcross" => "30003",
-  "lawrenceville" => "30044",
-  "dacula" => "30019",
-  "alpharetta" => "30009",
-  "decatur" => "30030",
-  "loganville" => "30052",
-  "marietta" => "30060",
-  "roswell" => "30076",
+  {:city_name => "lilburn", 
+   :city_zip => "30047"},
+
+  {:city_name => "norcross", 
+   :city_zip => "30003"},
+
+  {:city_name => "lawrenceville", 
+   :city_zip => "30044"},
+
+  {:city_name => "dacula", 
+   :city_zip => "30019"},
+
+  {:city_name => "alpharetta", 
+   :city_zip => "30009"},
+
+  {:city_name => "decatur", 
+   :city_zip => "30030"},
+
+  {:city_name => "loganville", 
+   :city_zip => "30052"},
+   
+  {:city_name => "marietta", 
+   :city_zip => "30060"},
+
+  {:city_name => "roswell", 
+   :city_zip => "30076"},
  }
 
  #create a method to get city_by_name
