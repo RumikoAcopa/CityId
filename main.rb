@@ -12,7 +12,8 @@ city_info = {
 
  #create a method to get city_by_name
 
- def get_city_name(ahash)
+ def get_city_name(city_info)
+  
  end 
 
  #create a method to get the zip and return a city associated with it
@@ -20,5 +21,10 @@ city_info = {
  end
 
  #use execution flow 
- loop do 
+ #infinite loop-no bueno
+ loop do
+  puts "Do you want to lookup an area code based on a city name?(Y/N)"
+
+  answer = gets.chomp.downcase
+  break if answer != "y"
  end 
