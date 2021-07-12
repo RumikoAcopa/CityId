@@ -15,7 +15,10 @@ city_info = {
  def get_city_name(ahash)
  end 
 
+ #create a method to get the zip and return a city associated with it
  def get_zip_code(ahash,key)
  end
 
- 
+ #use execution flow 
+ loop do 
+ end 
