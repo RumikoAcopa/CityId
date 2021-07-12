@@ -9,3 +9,8 @@ city_info = {
   "marietta" => "30060",
   "roswell" => "30076",
  }
+
+ #create a method to get city_by_name
+
+ def get_city_name(ahash)
+ end 
