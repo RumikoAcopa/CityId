@@ -14,3 +14,6 @@ city_info = {
 
  def get_city_name(ahash)
  end 
+
+ def get_zip_code(ahash,key)
+ end
