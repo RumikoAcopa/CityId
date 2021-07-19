@@ -20,12 +20,13 @@ city_info = {
 
  #create a method to get city_by_name
 
- def get_city_name(city_info)
-  
+ def get_city_name(somecity)
+  somecity.keys 
+  #.keys method lists out all the keys
  end 
 
  #create a method to get the zip and return a city associated with it
- def get_zip_code(ahash,key)
+ def get_zip_code(somecity, key)
  end
 
  #use execution flow 
@@ -36,5 +37,5 @@ city_info = {
   answer = gets.chomp.downcase
   break if answer != "y"
   puts "Which city  do you want to lookup the areaode for?"
-  get_city_name(city_info)
+  puts get_city_name(city_info)
  end 
