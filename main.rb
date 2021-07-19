@@ -41,5 +41,10 @@ city_info = {
   #now enter a selection and get inputer
   puts "Enter your choice"
   prompt = gets.chomp
-  
+  #chance User enters invalid city, let user know if/else
+  if city_info.include?(prompt)
+    puts "placeholder"
+  else
+    puts "you entered an invalid city name"
+  end
  end 
