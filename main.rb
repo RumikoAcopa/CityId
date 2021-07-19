@@ -38,4 +38,8 @@ city_info = {
   break if answer != "y"
   puts "Which city  do you want to lookup the areaode for?"
   puts get_city_name(city_info)
+  #now enter a selection and get inputer
+  puts "Enter your choice"
+  prompt = gets.chomp
+  
  end 
