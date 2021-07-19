@@ -44,4 +44,6 @@ city_info = {
 
   answer = gets.chomp.downcase
   break if answer != "y"
+  puts "Which city  do you want to lookup the areaode for?"
+  get_city_name(city_info)
  end 
