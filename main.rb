@@ -51,3 +51,5 @@ city_info = {
     puts "you entered an invalid city name"
   end
  end 
+
+ #Starter template: execution flow, some methods, a dictionary(where you can look things up), 
