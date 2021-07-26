@@ -44,7 +44,7 @@ city_info = {
   prompt = gets.chomp
   #chance User enters invalid city, let user know if/else
   if city_info.include?(prompt)
-    puts "The zip code for #{prompt} is #{get_zip_code(city_info, prompt)"
+    puts "The zip code for #{prompt} is #{get_zip_code(city_info, prompt)}"
   else
     puts "you entered an invalid city name"
   end
