@@ -16,6 +16,8 @@ city_info = {
   "marietta" => "30060",
 
   "roswell" => "30076",
+
+  "auburn" => "30011"
  }
 
  #create a method to get city_by_name
