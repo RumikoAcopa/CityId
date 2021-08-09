@@ -39,7 +39,7 @@ city_info = {
 
   answer = gets.chomp.downcase
   break if answer != "y"
-  puts "Which city  do you want to lookup the areaode for?"
+  puts "Which city  do you want to lookup the zip code for?"
   puts get_city_name(city_info)
   #now enter a selection and get inputer
   puts "Enter your choice"
