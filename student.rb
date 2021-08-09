@@ -7,3 +7,6 @@ class Student
   @password
 
 end 
+
+rumiko = Student.new
+puts rumiko
